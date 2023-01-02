@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5CAA75295ED17300CF868B /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CAA74295ED17300CF868B /* HomeCell.swift */; };
+		3F5CAA77295ED65000CF868B /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CAA76295ED65000CF868B /* TargetType.swift */; };
+		3F5CAA79295EDD0000CF868B /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CAA78295EDD0000CF868B /* AddController.swift */; };
+		3F5CAA7B295EDEF900CF868B /* ViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CAA7A295EDEF900CF868B /* ViewControllerExt.swift */; };
+		3F5CAA7D295EE21400CF868B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CAA7C295EE21400CF868B /* UIViewExt.swift */; };
+		3F5CAA7F295EE5A200CF868B /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CAA7E295EE5A200CF868B /* UIButtonExt.swift */; };
+		3F5CAA81295EED8100CF868B /* CompleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CAA80295EED8100CF868B /* CompleteController.swift */; };
+		3F5CAA84295F001100CF868B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5CAA83295F001100CF868B /* CoreData.framework */; };
 		3FAD1685295EC61E00E00577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD1684295EC61E00E00577 /* AppDelegate.swift */; };
 		3FAD1687295EC61E00E00577 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD1686295EC61E00E00577 /* SceneDelegate.swift */; };
-		3FAD1689295EC61E00E00577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD1688295EC61E00E00577 /* ViewController.swift */; };
+		3FAD1689295EC61E00E00577 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD1688295EC61E00E00577 /* HomeController.swift */; };
 		3FAD168C295EC61E00E00577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAD168A295EC61E00E00577 /* Main.storyboard */; };
 		3FAD168F295EC61E00E00577 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD168D295EC61E00E00577 /* ToDoList.xcdatamodeld */; };
 		3FAD1691295EC61F00E00577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAD1690295EC61F00E00577 /* Assets.xcassets */; };
@@ -17,10 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F5CAA74295ED17300CF868B /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		3F5CAA76295ED65000CF868B /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		3F5CAA78295EDD0000CF868B /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		3F5CAA7A295EDEF900CF868B /* ViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExt.swift; sourceTree = "<group>"; };
+		3F5CAA7C295EE21400CF868B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		3F5CAA7E295EE5A200CF868B /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		3F5CAA80295EED8100CF868B /* CompleteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteController.swift; sourceTree = "<group>"; };
+		3F5CAA83295F001100CF868B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3FAD1681295EC61E00E00577 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAD1684295EC61E00E00577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FAD1686295EC61E00E00577 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FAD1688295EC61E00E00577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FAD1688295EC61E00E00577 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		3FAD168B295EC61E00E00577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FAD168E295EC61E00E00577 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		3FAD1690295EC61F00E00577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,17 +49,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5CAA84295F001100CF868B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5CAA82295F001100CF868B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CAA83295F001100CF868B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3FAD1678295EC61E00E00577 = {
 			isa = PBXGroup;
 			children = (
 				3FAD1683295EC61E00E00577 /* ToDoList */,
 				3FAD1682295EC61E00E00577 /* Products */,
+				3F5CAA82295F001100CF868B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +84,63 @@
 		3FAD1683295EC61E00E00577 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				3FAD169F295EC6C500E00577 /* Untils */,
+				3FAD169E295EC6C300E00577 /* Enum */,
+				3FAD169D295EC65100E00577 /* CoreData */,
+				3FAD169C295EC65000E00577 /* View */,
+				3FAD169B295EC64F00E00577 /* Controller */,
 				3FAD1684295EC61E00E00577 /* AppDelegate.swift */,
 				3FAD1686295EC61E00E00577 /* SceneDelegate.swift */,
-				3FAD1688295EC61E00E00577 /* ViewController.swift */,
 				3FAD168A295EC61E00E00577 /* Main.storyboard */,
 				3FAD1690295EC61F00E00577 /* Assets.xcassets */,
 				3FAD1692295EC61F00E00577 /* LaunchScreen.storyboard */,
 				3FAD1695295EC61F00E00577 /* Info.plist */,
-				3FAD168D295EC61E00E00577 /* ToDoList.xcdatamodeld */,
 			);
 			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		3FAD169B295EC64F00E00577 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD1688295EC61E00E00577 /* HomeController.swift */,
+				3F5CAA78295EDD0000CF868B /* AddController.swift */,
+				3F5CAA80295EED8100CF868B /* CompleteController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FAD169C295EC65000E00577 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CAA74295ED17300CF868B /* HomeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FAD169D295EC65100E00577 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD168D295EC61E00E00577 /* ToDoList.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3FAD169E295EC6C300E00577 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CAA76295ED65000CF868B /* TargetType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		3FAD169F295EC6C500E00577 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CAA7A295EDEF900CF868B /* ViewControllerExt.swift */,
+				3F5CAA7C295EE21400CF868B /* UIViewExt.swift */,
+				3F5CAA7E295EE5A200CF868B /* UIButtonExt.swift */,
+			);
+			path = Untils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FAD1689295EC61E00E00577 /* ViewController.swift in Sources */,
+				3F5CAA7D295EE21400CF868B /* UIViewExt.swift in Sources */,
+				3F5CAA7F295EE5A200CF868B /* UIButtonExt.swift in Sources */,
+				3F5CAA77295ED65000CF868B /* TargetType.swift in Sources */,
+				3FAD1689295EC61E00E00577 /* HomeController.swift in Sources */,
 				3FAD1685295EC61E00E00577 /* AppDelegate.swift in Sources */,
+				3F5CAA7B295EDEF900CF868B /* ViewControllerExt.swift in Sources */,
 				3FAD1687295EC61E00E00577 /* SceneDelegate.swift in Sources */,
 				3FAD168F295EC61E00E00577 /* ToDoList.xcdatamodeld in Sources */,
+				3F5CAA79295EDD0000CF868B /* AddController.swift in Sources */,
+				3F5CAA75295ED17300CF868B /* HomeCell.swift in Sources */,
+				3F5CAA81295EED8100CF868B /* CompleteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
